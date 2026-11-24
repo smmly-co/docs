@@ -1,7 +1,9 @@
-# SMMly API
+# SMMly developer resources
 
-The SMMly API is not publicly available yet.
+Build your reseller workflows around SMMly.
 
-Official API documentation will be published here when the API is released. Do not use unofficial endpoints or assume compatibility with another provider's API.
+SMMly is creating API resources for developers, resellers and businesses connecting their own websites, panels and applications.
 
-For product information, visit [smmly.co](https://smmly.co).
+Official integration documentation and access information will be published here.
+
+For SMMly product information, visit [smmly.co](https://smmly.co).
