@@ -1,34 +1,34 @@
 # SMMly for resellers
 
-SMMly is being built to support operators who manage customer-facing SMM services and want to connect their own applications to a central service panel.
+SMMly is a social media marketing (SMM) panel designed for agencies, service resellers and businesses that manage social media marketing orders.
 
-## Intended reseller workflows
+Reseller-focused workflows are part of the SMMly product direction: manage services in one place, organise customer orders, and build your own customer-facing business around a central SMM platform.
 
-- Browse the available service catalogue.
-- Read service rates, limits, and capabilities.
-- Create customer orders programmatically.
-- Check one or many order statuses.
-- Read the authenticated account balance.
-- Request eligible refills.
-- Check refill status.
-- Request cancellation for eligible orders.
+## Reseller platform capabilities
 
-## API
+- **Service catalogue:** discover supported social media services and review service details.
+- **Order management:** organise customer orders and follow their progress.
+- **Account balance:** review available balance and payment activity.
+- **API integrations:** connect websites, reseller panels, applications and server-side automations through the SMMly API when access is available.
+- **Bulk workflows:** support efficient order operations for businesses handling multiple customer requests.
+- **Order support:** access the applicable order support, refill, cancellation and refund information shown by SMMly.
 
-The target API follows established SMM V2-style conventions and uses a single POST endpoint with an API key, action name, and JSON response.
+## SMM reseller API
 
-The API is not currently released. Review the [draft API specification](https://github.com/smmly-co/smmpanel-api/blob/main/API.md), but do not connect a production panel until SMMly publishes an active endpoint and final compatibility contract.
+The SMMly developer experience is intended for businesses that want to connect their own websites, SMM panels, bots or internal tools. API documentation, compatibility details and access instructions will be published through the [SMMly API resources](https://github.com/smmly-co/smmpanel-api).
 
-## Integration safety
+Do not treat example conventions or third-party SMM V2 documentation as confirmation that a specific SMMly endpoint or action is available. Use the official SMMly documentation for supported operations and integration requirements.
 
-- Keep API keys on your server; never expose them in frontend JavaScript.
-- Use HTTPS.
-- Validate service IDs and quantity limits from the live catalogue.
-- Do not retry an order creation request blindly after a timeout.
-- Check order status before attempting recovery from an uncertain response.
-- Respect per-service refill and cancellation eligibility.
-- Reconcile customer billing with your own ledger and SMMly's returned order data.
+## Referral and growth programmes
 
-## Planned compatibility
+SMMly's product ecosystem is designed to support business growth, including referral and partner-oriented workflows. Programme availability, eligibility, reward terms and account access are governed by the information published by SMMly.
 
-SMMly aims to preserve familiar SMM V2 action names and request shapes where verified. Exact service-type fields, error responses, rate limits, and supported operations will be confirmed in the released API documentation.
+## Integration security
+
+- Keep API credentials on your server and never expose them in browser-side code.
+- Use HTTPS for integrations.
+- Follow the published service limits and request requirements.
+- Handle timeouts carefully; verify order state before retrying an uncertain order submission.
+- Follow the current SMMly API documentation for authentication, errors and supported actions.
+
+Visit [SMMly](https://smmly.co) for current product and service information.
