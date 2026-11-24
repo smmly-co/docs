@@ -17,4 +17,4 @@ Documentation home for the SMMly self-hosted SMM panel and its developer integra
 
 Do not treat a planned feature as released. Where documentation and the application differ, report the discrepancy rather than assuming either is correct.
 
-Related projects: [API](https://github.com/smmly-co/smmpanel-api) · [Telegram bot](https://github.com/smmly-co/smmpanel-telegrambot) · [Examples](https://github.com/smmly-co/examples).
+Related projects: [API](https://github.com/smmly-co/smmpanel-api) · [Telegram bot](https://github.com/smmly-co/smmpanel-telegram-bot) · [Examples](https://github.com/smmly-co/examples).
