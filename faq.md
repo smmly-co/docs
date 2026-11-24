@@ -1,75 +1,37 @@
-# Frequently asked questions
+# SMMly — Frequently asked questions
 
-## Orders
+## What is SMMly?
 
-### How quickly will an order start?
+SMMly is a social media marketing panel for creators, agencies, businesses and resellers. It brings service discovery, order management, account balance and support into one place.
 
-Start time depends on the selected service, provider, platform, and current demand. Any estimate shown with a service is informational, not a guarantee.
+## Who is SMMly for?
 
-### What does Partial mean?
+SMMly is designed for people and businesses managing social media marketing services, including agencies, operators and resellers.
 
-The order ended before the full quantity was delivered. The final unused value is reconciled to the account balance according to the order's financial record.
+## How do I explore services?
 
-### Which link should I submit?
+Visit [smmly.co](https://smmly.co) and review the services and information currently shown there.
 
-Use the exact target format requested by the service. Some services require a profile link; others require a post, video, channel, or username.
+## How do I place an order?
 
-### Does my account or post need to be public?
+Sign in to your SMMly account, select an available service and follow the instructions shown for that service.
 
-Many services require a public target. Follow the selected service's requirements and keep the target accessible until delivery is complete.
+## Where can I follow an order?
 
-### Can I place another order for the same link?
+Use the order area in your SMMly account to review available order information and progress.
 
-Avoid overlapping orders while an earlier order is active unless the service explicitly allows it.
+## How do I add funds or review my balance?
 
-### Can an order be canceled?
+Use the account and payment options shown after signing in. Available payment methods and terms are displayed in the product.
 
-Only if the service supports cancellation and the order is still eligible. A request must be followed by a status check.
+## How do I get support?
 
-## Refills and refunds
+Use the support options published on [smmly.co](https://smmly.co). Include the relevant order or payment reference when asking for help. Never share passwords or payment security details.
 
-### What is a refill?
+## Does SMMly support resellers?
 
-A refill replaces eligible drops after delivery, within the service's stated coverage period. It is not a refund for undelivered quantity.
+SMMly is designed to serve reseller workflows. Developer resources and integration information are published through the [SMMly GitHub organization](https://github.com/smmly-co) as they become available.
 
-### Does every service include refill?
+## Where can developers find API information?
 
-No. Refill coverage is service-specific and should be shown in the service details.
-
-### What happens to an undelivered amount?
-
-Eligible unused value is credited to the SMMly account balance after final order reconciliation.
-
-### Can I withdraw my panel balance?
-
-Do not assume panel balance is cash-withdrawable. The applicable SMMly account and refund policy governs balance use.
-
-## Payments
-
-### Which payment methods are available?
-
-The Add funds page displays the methods currently enabled for the account and region.
-
-### My payment completed but the balance did not update. What should I do?
-
-Contact support with the payment reference and method. Do not send full card details or security codes.
-
-## Account security
-
-### Do you need my social media password?
-
-No. Use only the public link or username requested by the service. Never share your social media password.
-
-### How should I protect my API key?
-
-Treat it like a password. Store it on a trusted server, keep it out of browser code and source control, and rotate it if exposed.
-
-## Resellers
-
-### Does SMMly have an API?
-
-SMMly is building an SMM V2-compatible reseller API. It is currently a draft and is not available for production use. Follow the [API repository](https://github.com/smmly-co/smmpanel-api) for release information.
-
-### Can I connect my own panel or bot?
-
-The target API is designed for reseller panels, bots, and custom applications. Do not build against the draft as though it were a live endpoint.
+Visit the [SMMly API repository](https://github.com/smmly-co/smmpanel-api) for official developer resources.
