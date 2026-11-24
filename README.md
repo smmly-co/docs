@@ -9,7 +9,7 @@ Documentation home for the SMMly self-hosted SMM panel and its developer integra
 - Product overview and terminology
 - Installation and configuration guides, after deployment steps are verified
 - Administration and customer workflow guides
-- API reference, after the API is implemented and tested
+- [API availability and release status](api/README.md); full API reference after the API is implemented and tested
 - Integration guides and examples, after supported contracts are available
 - Security, backup, upgrade, and troubleshooting guidance
 
