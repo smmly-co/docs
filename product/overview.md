@@ -1,54 +1,28 @@
-# SMMly product overview
+# SMMly
 
-SMMly is a self-hosted social media marketing panel for creators, agencies, service businesses, and resellers.
+## Your SMM business, in one panel.
 
-It brings a service catalogue, customer accounts, prepaid balances, order workflows, provider connections, and administration into one panel. The product is designed for operators who want to manage their own customer-facing SMM business.
+SMMly is a social media marketing panel built for creators, agencies, businesses and resellers.
 
-> **Availability note:** This guide describes the target product experience. Individual features may be unavailable or changing while the product is being completed and verified.
+Manage your SMM operations through one place: explore services, place orders, follow order progress, manage your account balance and get support when you need it.
 
-## Core workflows
+## Made for everyday SMM operations
 
-### Discover services
+### Explore services
+Browse the service catalogue and review the information available for each service before placing an order.
 
-Browse services by platform and category. A useful service listing should show:
+### Place and follow orders
+Submit an order using the details requested by the selected service and follow its progress through your account.
 
-- Service name and description
-- Service type and supported target format
-- Rate and billing unit
-- Minimum and maximum quantity
-- Estimated start or delivery information, where available
-- Refill coverage and duration, where applicable
-- Cancellation availability, where applicable
-- Service-specific requirements and restrictions
+### Manage your account
+Keep track of your account balance and payment activity in one place.
 
-Rates should be clear before a customer confirms an order. Unless a service states otherwise, the target pricing model is a rate per 1,000 units.
+### Reseller workflows
+SMMly is designed with resellers and developers in mind. Developer resources are available through the SMMly GitHub organization as they are published.
 
-### Place an order
+### Get support
+For help with an account, order or payment, use the support options provided through the SMMly website.
 
-Choose a service, provide the requested public profile/post/channel link or username, enter a quantity within the service limits, review the charge, and submit.
+## Use SMMly
 
-SMMly should never ask customers for their social platform password. Customers are responsible for submitting a valid target and keeping it accessible while delivery is in progress.
-
-### Track delivery
-
-The order history provides an order ID, selected service, target, quantity, charge, start count, remaining quantity, and current status where those fields are available.
-
-Delivery speed is service- and provider-dependent. Estimates are not guarantees.
-
-### Manage account balance
-
-Customers add funds through the payment methods enabled for their account and use their panel balance for orders. Order-related credits and refunds are reflected in account transaction history.
-
-Panel balance is order credit. It should not be presented as a cash-withdrawal facility unless a separate policy explicitly says otherwise.
-
-### Get help
-
-Support requests should include the order ID and the target link for order-related questions. Payment requests should include the payment reference and method, but never card secrets, passwords, or API keys.
-
-## Service eligibility
-
-Not every service supports every workflow. Refill, cancellation, drip-feed, custom comments, and other advanced options must be shown only when the selected service supports them.
-
-## Reseller workflows
-
-SMMly is designed to support programmatic reseller workflows through a customer API. The API is currently a draft; see the [API repository](https://github.com/smmly-co/smmpanel-api) for release status.
+Visit [smmly.co](https://smmly.co) to explore the product and current service availability.
