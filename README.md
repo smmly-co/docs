@@ -6,7 +6,7 @@
 
 A social media marketing panel for managing services, orders, account balance and reseller workflows.
 
-[Website](https://smmly.co) · [API](https://github.com/smmly-co/smmpanel-api) · [GitHub](https://github.com/smmly-co)
+[Website](https://smmly.co) · [Features](https://github.com/smmly-co/docs/blob/main/features.md) · [API](https://github.com/smmly-co/smmpanel-api) · [GitHub](https://github.com/smmly-co)
 
 </div>
 
@@ -20,14 +20,17 @@ SMMly brings the everyday work of an SMM business into one place:
 - Review service information, pricing and order requirements.
 - Place and follow customer orders.
 - Manage account balance and payment activity.
-- Access support for account, order and payment questions.
+- Find guidance for applicable partial orders, refills, cancellations and refunds.
 - Build reseller workflows around SMMly.
+- Explore API, bulk-order, referral and integration resources as they become available.
 
-Product features and availability are shown through the SMMly website and customer account.
+Read the [SMMly features overview](https://github.com/smmly-co/docs/blob/main/features.md) for a guide to the platform's product areas.
+
+Product features, service availability, payment options, API access and programme terms are determined by the information published through SMMly.
 
 ## Developers and resellers
 
-SMMly is building resources for resellers and developers who want to connect their own applications and workflows. Visit the [SMMly API repository](https://github.com/smmly-co/smmpanel-api) for updates.
+Visit the [SMMly API repository](https://github.com/smmly-co/smmpanel-api) for developer and reseller integration resources.
 
 ## Visit SMMly
 
